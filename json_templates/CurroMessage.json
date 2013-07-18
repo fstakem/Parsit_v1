@@ -1,0 +1,6 @@
+{
+    "Protocol": "curro_message",
+    "Version": "1",
+    "MessageType": "unstructured_log_rules",
+    "Data": {}
+}

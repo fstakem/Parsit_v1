@@ -1,0 +1,10 @@
+{
+    "Protocol": "curro_message",
+    "Version": "1",
+    "MessageType": "unstructured_log_rules",
+    "Data": {
+        "LogKey": "AXYQ",
+        "LastModified": "1.1.13:8.35.45",
+        "Rules": []
+    }
+}

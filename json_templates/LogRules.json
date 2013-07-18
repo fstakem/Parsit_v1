@@ -1,0 +1,40 @@
+{
+    "Protocol": "curro_message",
+    "Version": "1",
+    "MessageType": "unstructured_log_rules",
+    "Data": {
+        "LogKey": "AXYQ",
+        "LastModified": "1.1.13:8.35.45",
+        "Rules": [
+            {
+                "RuleType": "strip_position",
+                "RuleParameters": {
+                    "From": "0",
+                    "To": "4"
+                }
+            },
+            {
+                "RuleType": "strip_position_value",
+                "RuleParameters": {
+                    "From": "[",
+                    "To": "]"
+                }
+            },
+            {
+                "RuleType": "strip_until_pattern",
+                "RuleParameters": {
+                    "Direction": "forward/backward",
+                    "Pattern": "]"
+                }
+            },
+            {
+                "RuleType": "strip_until_token",
+                "RuleParameters": {
+                    "Direction": "forward/backward",
+                    "Separator": "\\w",
+                    "Number": "3"
+                }
+            }
+        ]
+    }
+}
